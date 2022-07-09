@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+    color: white;
+}
+
+main { height: 100vh;width: 100vw;
+    display: flex;
+    background-size: cover;
+    background: url(backg-crowd.jpg) no-repeat center  center  ;
+}
+.img-left{
+
+    flex: 2;
+}
+.text{
+    display: flex;
+    position: relative;
+    top: 20vh;
+    background-color: rgba(0, 0, 0, 0.361);
+    justify-content: center;
+    height: auto;
+
+    padding: 15px 0;
+    align-items: center;
+    
+
+}
+.form-right{
+    flex: 3;
+    background-color: rgba(0, 0, 0, 0.352);
+}
+
+label{
+    font-size: 1.5rem;
+}
+
+input{
+    background-color: rgba(0, 0, 0, 0.454);
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
+    padding: 0 0.9rem  ;
+    outline: 3px solid rgba(0, 0, 0, 0);
+    border: none;
+}
+input:focus{
+    outline: 3px solid rgb(105, 111, 119);
+}
+.container{
+    padding-left: 7px ;
+    padding-right: 7px ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    flex: 40%;
+
+}
+p{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+.dummy-text{
+    padding-left: 10px ;
+    padding-right: 10px ;
+    margin-bottom: 30px ;
+}
+
+input[type="submit"]{
+    margin-top: 5vh ;
+    background-color: khaki;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+input[type="submit"]:active{
+    background-color: transparent;
+    outline: none;
+}
